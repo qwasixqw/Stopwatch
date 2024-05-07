@@ -1,0 +1,58 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	height: 100vh;
+	background-color: rgb(157, 124, 189);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.stopwatch {
+	width: 800px;
+	height: 400px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container {
+}
+.time {
+	width: 600px;
+	height: 200px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 46px;
+	border-radius: 10px;
+}
+.interval {
+	font-weight: 700;
+	font-size: 86px;
+}
+.colon {
+	font-size: 56px;
+	font-weight: 700;
+	margin: 0 20px;
+}
+.buttons {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 80px;
+}
+.btn {
+	background-color: black;
+	border-radius: 10px;
+	width: 140px;
+	height: 50px;
+	font-size: 26px;
+}
+
+.minutes {	
+	max-width: 260px;
+}
